@@ -29,4 +29,13 @@ const StyledProductCard = styled.div`
   background-color: var(--white);
   border-radius: 10px;
   overflow: hidden;
+
+  @media (max-width: 375px) {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 28px 16px;
+  }
 `;

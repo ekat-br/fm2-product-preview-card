@@ -24,6 +24,10 @@ export default ProductInfo;
 
 const ProductInfoContainer = styled.div`
   margin-left: 31.5px;
+
+  @media (max-width: 375px) {
+    margin: 0px;
+  }
 `;
 
 const ProductCategory = styled.div`
@@ -46,6 +50,10 @@ const ProductTitle = styled.div`
   font-weight: 700;
   line-height: 32px;
   margin: 20px 0px 0px 0px;
+
+  @media (max-width: 375px) {
+    width: 295px;
+  }
 `;
 
 const ProductDescription = styled.div`
@@ -57,6 +65,10 @@ const ProductDescription = styled.div`
   font-weight: 500;
   line-height: 23px;
   margin: 24px 0px 0px 0px;
+
+  @media (max-width: 375px) {
+    width: 295px;
+  }
 `;
 
 const Prices = styled.div`
@@ -64,6 +76,10 @@ const Prices = styled.div`
   align-items: center;
   margin: 29px 0px 0px 0px;
   gap: 19px;
+
+  @media (max-width: 375px) {
+    margin: 24px 0px 0px 0px;
+  }
 `;
 
 const CurrentPrice = styled.div`

@@ -33,6 +33,11 @@ const StyledButton = styled.button`
   &:hover {
     background-color: var(--Deep-Aquamarine-Hover);
   }
+
+  @media (max-width: 375px) {
+    margin: 20px 0px 30px 0px;
+    width: 295px;
+  }
 `;
 
 const ButtonContent = styled.div`
